@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.oauth2.sso</groupId>
+    <artifactId>oauth2-sso</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>spring-security-sso</name>
+    <packaging>pom</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+
+        <rest-assured.version>3.1.0</rest-assured.version>
+        <oauth.version>2.3.3.RELEASE</oauth.version>
+        <oauth-auto.version>2.0.1.RELEASE</oauth-auto.version>
+        <springboot.version>2.0.3.RELEASE</springboot.version>
+    </properties>
+
+    <!-- 依赖管理，实现聚合和继承 -->
+    <dependencyManagement>
+        <dependencies>
+
+
+            <!-- Spring Boot依赖，通过import方式导入，方便实现多pom继承 -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${springboot.version}</version>
+                <type>pom</type>
+                <!-- 共六种 compile、provided、runtime、test、system、import -->
+                <scope>import</scope>
+            </dependency>
+
+
+
+        </dependencies>
+    </dependencyManagement>
+
+    <!-- maven 扩展插件 -->
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <version>${springboot.version}</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>
