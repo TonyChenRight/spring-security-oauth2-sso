@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ca69752-9cc6-4398-8443-a492ae7a0413" name="Default Changelist" comment="" />
+    <list default="true" id="4ca69752-9cc6-4398-8443-a492ae7a0413" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-authserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso-authserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso-ui/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-ui2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso-ui2/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/sso-authserver/target/" />
@@ -34,7 +39,7 @@
           <entry key="html" value="25" />
           <entry key="java" value="467" />
           <entry key="md" value="347" />
-          <entry key="xml" value="223" />
+          <entry key="xml" value="339" />
           <entry key="yml" value="48" />
         </counts>
       </usages-collector>
@@ -43,21 +48,22 @@
           <entry key="HTML" value="25" />
           <entry key="JAVA" value="467" />
           <entry key="Markdown" value="347" />
-          <entry key="XML" value="223" />
+          <entry key="XML" value="339" />
           <entry key="YAML" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
+          <entry key="cmd" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="8" />
-          <entry key="java" value="35" />
-          <entry key="md" value="3" />
+          <entry key="java" value="39" />
+          <entry key="md" value="4" />
           <entry key="mvnw" value="2" />
           <entry key="pom" value="4" />
           <entry key="properties" value="3" />
-          <entry key="xml" value="13" />
+          <entry key="xml" value="17" />
           <entry key="yml" value="5" />
         </counts>
       </usages-collector>
@@ -66,18 +72,113 @@
           <entry key="CLASS" value="2" />
           <entry key="Git file" value="1" />
           <entry key="HTML" value="8" />
-          <entry key="JAVA" value="35" />
-          <entry key="Markdown" value="3" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="39" />
+          <entry key="Markdown" value="4" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="3" />
-          <entry key="XML" value="17" />
+          <entry key="XML" value="21" />
           <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-ui/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="604">
+              <caret line="58" column="21" selection-start-line="55" selection-start-column="7" selection-end-line="58" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-authserver/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-ui2/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-ui2/src/main/java/com/sso/ui2/ssoui2/SsoUi2Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-ui2/src/main/java/com/sso/ui2/ssoui2/config/UiWebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-ui2/src/main/java/com/sso/ui2/ssoui2/config/UiSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-ui2/src/test/java/com/sso/ui2/ssoui2/SsoUi2ApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-ui2/mvnw.cmd">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -104,7 +205,6 @@
         <option value="$PROJECT_DIR$/sso-login-ui/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/sso-login-ui/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/sso-login-ui/src/test/java/com/sso/login/ui/ssologinui/SsoLoginUiApplicationTests.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/sso-login-ui/pom.xml" />
         <option value="$PROJECT_DIR$/sso-login-ui/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sso-authserver/src/main/java/com/sso/authserver/ssoauthserver/SsoAuthserverApplication.java" />
@@ -119,11 +219,12 @@
         <option value="$PROJECT_DIR$/sso-ui2/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/sso-ui2/src/main/resources/templates/securedPage.html" />
         <option value="$PROJECT_DIR$/sso-ui2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sso-ui2/src/main/java/com/sso/ui2/ssoui2/SsoUi2Application.java" />
+        <option value="$PROJECT_DIR$/REMADE.md" />
         <option value="$PROJECT_DIR$/sso-ui2/pom.xml" />
         <option value="$PROJECT_DIR$/sso-ui/pom.xml" />
         <option value="$PROJECT_DIR$/sso-authserver/pom.xml" />
-        <option value="$PROJECT_DIR$/sso-ui2/src/main/java/com/sso/ui2/ssoui2/SsoUi2Application.java" />
-        <option value="$PROJECT_DIR$/REMADE.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -142,11 +243,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-486" />
     <option name="y" value="-1417" />
     <option name="width" value="2560" />
-    <option name="height" value="1417" />
+    <option name="height" value="1353" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -160,6 +261,111 @@
             <path>
               <item name="oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
               <item name="oauth2-sso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-authserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-ui2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-ui2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-ui2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-ui2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-ui2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssoui2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-ui2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssoui2" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-ui2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssoui2" type="462c0819:PsiDirectoryNode" />
+              <item name="SsoUi2Application" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-ui2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-ui2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-ui2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssoui2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-ui2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssoui2" type="462c0819:PsiDirectoryNode" />
+              <item name="SsoUi2ApplicationTests" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
@@ -177,7 +383,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539926763506" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539932760901" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -279,7 +485,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539916475768</updated>
-      <workItem from="1539916480657" duration="7575000" />
+      <workItem from="1539916480657" duration="9911000" />
     </task>
     <servers />
   </component>
@@ -292,7 +498,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7575000" />
+    <option name="totallyTimeSpent" value="9911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,7 +522,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="FindBugs-IDEA" />
       <window_info anchor="bottom" id="Spring" weight="0.32981133" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49960285" visible="true" weight="0.32981133" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49960285" weight="0.34655035" />
       <window_info anchor="bottom" id="CheckStyle" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50039715" side_tool="true" weight="0.32981133" />
       <window_info anchor="bottom" id="Messages" weight="0.32981133" />
@@ -327,7 +533,7 @@
       <window_info anchor="bottom" id="Debug with VisualVM" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.32981133" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.31320754" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -392,14 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sso-authserver/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -424,55 +622,10 @@
     <entry file="file://$PROJECT_DIR$/sso-ui2/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-ui2/src/main/java/com/sso/ui2/ssoui2/config/UiSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-ui2/src/main/java/com/sso/ui2/ssoui2/config/UiWebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sso-ui/src/test/java/com/sso/login/ui/ssologinui/SsoLoginUiApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-ui2/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-ui/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-authserver/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-ui2/src/main/java/com/sso/ui2/ssoui2/SsoUi2Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -612,6 +765,80 @@
             <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-ui2/src/test/java/com/sso/ui2/ssoui2/SsoUi2ApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-ui2/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-ui2/src/main/java/com/sso/ui2/ssoui2/SsoUi2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-ui2/src/main/java/com/sso/ui2/ssoui2/config/UiWebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-ui/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="58" column="21" selection-start-line="55" selection-start-column="7" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-ui2/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-authserver/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-ui2/src/main/java/com/sso/ui2/ssoui2/config/UiSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
         </state>
       </provider>
     </entry>
