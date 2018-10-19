@@ -50,6 +50,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
+          <entry key="gitignore" value="1" />
           <entry key="html" value="8" />
           <entry key="java" value="35" />
           <entry key="md" value="3" />
@@ -63,6 +64,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
+          <entry key="Git file" value="1" />
           <entry key="HTML" value="8" />
           <entry key="JAVA" value="35" />
           <entry key="Markdown" value="3" />
@@ -80,8 +82,8 @@
         <entry file="file://$PROJECT_DIR$/REMADE.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="38">
-                <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+              <first_editor relative-caret-position="209">
+                <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -103,6 +105,9 @@
     <findStrings>
       <find>authentication</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -156,6 +161,7 @@
     <option name="width" value="2560" />
     <option name="height" value="1417" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -184,7 +190,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539926257167" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539926575801" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -286,7 +292,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539916475768</updated>
-      <workItem from="1539916480657" duration="6983000" />
+      <workItem from="1539916480657" duration="7280000" />
     </task>
     <servers />
   </component>
@@ -299,7 +305,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6983000" />
+    <option name="totallyTimeSpent" value="7280000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -312,7 +318,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-486" y="-1417" width="2560" height="1417" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -320,11 +325,11 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980143" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="FindBugs-IDEA" />
       <window_info anchor="bottom" id="Spring" weight="0.32981133" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49960285" weight="0.32981133" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49960285" visible="true" weight="0.32981133" />
       <window_info anchor="bottom" id="CheckStyle" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50039715" side_tool="true" weight="0.32981133" />
       <window_info anchor="bottom" id="Messages" weight="0.32981133" />
@@ -335,7 +340,7 @@
       <window_info anchor="bottom" id="Debug with VisualVM" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.32981133" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.32981133" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -606,11 +611,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/REMADE.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <first_editor relative-caret-position="209">
+            <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>
